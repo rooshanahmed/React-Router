@@ -14,7 +14,7 @@ function App() {
 
   const checkPath = () => {
     history.listen((location) => {
-      setPath(location.name);
+      setPath(location.pathname);
     });
   };
 
